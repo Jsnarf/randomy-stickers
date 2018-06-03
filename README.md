@@ -39,4 +39,4 @@ Or directly with an IDE like PyCharm.
 
 Loop on 1000 is sufficient and gives same result than a bigger one.
 
-Feel free to contribute, respecting the [contributing.md](https://github.com/Jsnarf/SecretSanta/blob/master/CONTRIBUTING.md)
+Feel free to contribute, respecting the [contributing.md](https://github.com/Jsnarf/randomy-stickers/blob/master/CONTRIBUTING.md)

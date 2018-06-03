@@ -19,9 +19,6 @@ Also, type those git config commands before going any further :
     git checkout -b {BRANCH_NAME}
     
 When develop is really stable and able to be released, its content is pushed to master.
-If you need to adapt your configuration, loggers or even code according to an environment and because you are
-doing a release for an environment, create a branch called develop-deploy, stabilize it before merging it 
-with develop and then push it to master.
 
 In case of problem on a release on master, an 'hotfix' branch is made, a fix is made there and then its merged into master and also in develop.
 
@@ -42,10 +39,6 @@ example : `Mail-add_different_mails` for the issue.
 We have very precise rules over how our git commit messages can be formatted. 
 This leads to more **readable messages** that are easy to follow when looking through 
 the **project history**. But also, we use the git commit messages to generate the **project change log**.
-
-But the real **golden rule** is: 
-
-> **Commit Often, Perfect Later, Publish Once**
 
 **1 Commits should have sense**
 
@@ -110,7 +103,6 @@ For the purpose of using or not `origin <BRANCH_NAME>` please see this [link](ht
 Before you submit your Pull Request (PR) consider the following guidelines:
 
 - **Create a pull/merge request**. here an example in  [Gitlab](https://docs.gitlab.com/ee/gitlab-basics/add-merge-request.html)
-- **Assign your merge request** in order to force **cross validation** and **code review**
 
 ## What is next ?
 
@@ -122,5 +114,4 @@ And start working all with respecting the contribution guidelines :)
 ## More information
 
 - [Git documentation](https://git-scm.com/documentation)
-- [Working with branches](https://www.atlassian.com/git/tutorials/using-branches)
-- [Comparing workflows](https://www.atlassian.com/git/tutorials/comparing-workflows)
+
